@@ -1,0 +1,27 @@
+PODS:
+  - Kingfisher (7.9.1)
+  - Shared (0.0.1)
+  - SwiftLint (0.52.4)
+
+DEPENDENCIES:
+  - Kingfisher
+  - Shared (from `../shared`)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  Shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  Shared: 4d22deb908e7a9ed9a64ea2d3fcc53255a207993
+  SwiftLint: 1cc5cd61ba9bacb2194e340aeb47a2a37fda00b3
+
+PODFILE CHECKSUM: 9f0a187cab63b43a440f75d3edfc55fcb6358549
+
+COCOAPODS: 1.14.3
